@@ -15,7 +15,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 // The commands are for macbook users :
 
-install new project : ~
+create new project : ~
 composer create-project laravel/laravel example-app //( example-app name of project )
 open the project directory ~
 cd example-app
