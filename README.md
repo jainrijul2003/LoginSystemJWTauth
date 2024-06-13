@@ -1,4 +1,4 @@
-<img width="275" alt="Screenshot 2024-06-13 at 3 40 28 PM" src="https://github.com/jainrijul2003/secure-login-system/assets/100368294/df8e7489-647d-4583-af2c-7f76bf5d0130"># Secure Login System
+# Secure Login System
 Building a Secure Laravel API with JWT Authentication
 Using Laravel 11 to build a system for secure user register and login with  Rest APIs using JWT authentication as a security measure 
 # About Laravel
@@ -27,7 +27,7 @@ connect the project to database
 in .env file  ( uncomment the section )  
 <img width="275" alt="Screenshot 2024-06-13 at 3 40 28 PM" src="https://github.com/jainrijul2003/secure-login-system/assets/100368294/5a78fffe-16e6-40f6-9117-bcb64a07d1b2">
 
-mysql //( i am using phpmyadmin on localhost so "mysql" as host here  )  
+mysql //( i am using phpmyadmin on localhost so "mysql" as connection here  )  
 jwtAPI  //( datadase name )  
   
 then Run ~  
@@ -41,9 +41,16 @@ Command #1 (Install JWT)
 Command #2 (Publish JWT Config File)  
 ✔️ php artisan vendor:publish --provider="PHPOpenSourceSaver\JWTAuth\Providers\LaravelServiceProvider"  
 
-Command #3 (Generate JWT Secret Key)  
+Command #3 Running the below commands will add the JWT_SECRET in your .env file as follows.  
 ✔️ php artisan jwt:secret  
+<img width="702" alt="Screenshot 2024-06-13 at 3 42 59 PM" src="https://github.com/jainrijul2003/secure-login-system/assets/100368294/a953ed74-22a4-4ebc-bd56-3ce07c758d68">
+
+Update Auth File  in config folder 
+Make the following changes to the file:  
+<img width="508" alt="Screenshot 2024-06-13 at 3 46 03 PM" src="https://github.com/jainrijul2003/secure-login-system/assets/100368294/11adfc5e-7588-4785-b403-c47cce6e8ccd">
+<img width="427" alt="Screenshot 2024-06-13 at 3 45 45 PM" src="https://github.com/jainrijul2003/secure-login-system/assets/100368294/2bbeaaa3-1517-4634-9933-935ab6c48c32">
 
 then ~  
-php artisan serve // to run the project   
-  
+php artisan serve // to run the project     
+<img width="447" alt="Screenshot 2024-06-13 at 3 47 33 PM" src="https://github.com/jainrijul2003/secure-login-system/assets/100368294/e6b938d7-aa42-462b-bb4a-98afde53b948">
+Use the above as starting of url the to your page  
