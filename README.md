@@ -1,7 +1,6 @@
-# Secure Login System
-Building a Secure Laravel API with JWT Authentication
-Using Laravel 11 to build a system for secure user register and login with  Rest APIs using JWT authentication as a security measure 
-# About Laravel
+# About Laravel  
+<img width="447" alt="Screenshot 2024-06-13 at 3 49 57 PM" src="https://github.com/jainrijul2003/secure-login-system/assets/100368294/360cd6aa-e7af-4040-a233-d59887e70f94">  
+
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
@@ -11,9 +10,14 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - [Robust background job processing](https://laravel.com/docs/queues).
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-# Commands for creating the projects after installing laravel and composer on the system
+Laravel is accessible, powerful, and provides tools required for large, robust applications.  
 
+# Secure Login System
+Building a Secure Laravel API with JWT Authentication
+Using Laravel 11 to build a system for secure user register and login with  Rest APIs using JWT authentication as a security measure   
+  
+# Commands for creating the projects after installing laravel and composer on the system
+For laravel installation follow the steps at : https://laravel.com/docs/11.x 
 // The commands are for macbook users :
 
 create new project : ~
@@ -52,5 +56,5 @@ Make the following changes to the file:
 
 then ~  
 php artisan serve // to run the project     
-<img width="447" alt="Screenshot 2024-06-13 at 3 47 33 PM" src="https://github.com/jainrijul2003/secure-login-system/assets/100368294/e6b938d7-aa42-462b-bb4a-98afde53b948">
+<img width="447" alt="Screenshot 2024-06-13 at 3 47 33 PM" src="https://github.com/jainrijul2003/secure-login-system/assets/100368294/e6b938d7-aa42-462b-bb4a-98afde53b948">  
 Use the above as starting of url the to your page  
