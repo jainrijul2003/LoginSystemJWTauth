@@ -7,11 +7,11 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 // The commands are for macbook users :
 
-install new project :
+install new project : ~
 composer create-project laravel/laravel example-app //( example-app name of project )
-open the project directory 
+open the project directory ~
 cd example-app
-to get routes/api.php run :
+to get routes/api.php run : ~
 php artisan install:api
 
 connect the project to database 
