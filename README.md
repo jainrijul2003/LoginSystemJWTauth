@@ -17,7 +17,7 @@ Building a Secure Laravel API with JWT Authentication
 Using Laravel 11 to build a system for secure user register and login with  Rest APIs using JWT authentication as a security measure   
   
 # Commands for creating the projects after installing laravel and composer on the system
-For laravel installation follow the steps at : https://laravel.com/docs/11.x 
+For laravel installation follow the steps at : https://laravel.com/docs/11.x   
 // The commands are for macbook users :
 
 create new project : ~
