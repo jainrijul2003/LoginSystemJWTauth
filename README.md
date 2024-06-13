@@ -1,4 +1,5 @@
-# Secure Login System
+<img width="275" alt="Screenshot 2024-06-13 at 3 40 28 PM" src="https://github.com/jainrijul2003/secure-login-system/assets/100368294/df8e7489-647d-4583-af2c-7f76bf5d0130"># Secure Login System
+Building a Secure Laravel API with JWT Authentication
 Using Laravel 11 to build a system for secure user register and login with  Rest APIs using JWT authentication as a security measure 
 # About Laravel
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
@@ -24,15 +25,11 @@ php artisan install:api
 
 connect the project to database   
 in .env file  ( uncomment the section )  
+<img width="275" alt="Screenshot 2024-06-13 at 3 40 28 PM" src="https://github.com/jainrijul2003/secure-login-system/assets/100368294/5a78fffe-16e6-40f6-9117-bcb64a07d1b2">
 
-DB_CONNECTION=mysql //( i am using phpmyadmin on localhost so "mysql" as host here  )  
-DB_HOST=127.0.0.1  
-DB_PORT=3306  
-DB_DATABASE=jwtAPI  //( datadase name )  
-DB_USERNAME=root      
-DB_PASSWORD=  
+mysql //( i am using phpmyadmin on localhost so "mysql" as host here  )  
+jwtAPI  //( datadase name )  
   
-
 then Run ~  
 php artisan migrate   
 
