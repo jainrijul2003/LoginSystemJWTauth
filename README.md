@@ -49,8 +49,8 @@ Command #3 Running the below commands will add the JWT_SECRET in your .env file 
 
 Update Auth File  in config folder 
 Make the following changes to the file:  
-<img width="508" alt="Screenshot 2024-06-13 at 3 46 03 PM" src="https://github.com/jainrijul2003/secure-login-system/assets/100368294/11adfc5e-7588-4785-b403-c47cce6e8ccd">
-<img width="427" alt="Screenshot 2024-06-13 at 3 45 45 PM" src="https://github.com/jainrijul2003/secure-login-system/assets/100368294/2bbeaaa3-1517-4634-9933-935ab6c48c32">
+<img width="508" alt="Screenshot 2024-06-13 at 3 46 03 PM" src="https://github.com/jainrijul2003/secure-login-system/assets/100368294/11adfc5e-7588-4785-b403-c47cce6e8ccd">  
+<img width="427" alt="Screenshot 2024-06-13 at 3 45 45 PM" src="https://github.com/jainrijul2003/secure-login-system/assets/100368294/2bbeaaa3-1517-4634-9933-935ab6c48c32">  
 
 then ~  
 php artisan serve // to run the project     
