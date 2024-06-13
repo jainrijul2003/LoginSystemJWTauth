@@ -1,5 +1,5 @@
 # Secure Login System
-Using Laravel 11 build a system for secure user register and login with  Rest APIs using JWT authentication as a security measure 
+Using Laravel 11 to build a system for secure user register and login with  Rest APIs using JWT authentication as a security measure 
 # About Laravel
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
