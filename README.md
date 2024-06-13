@@ -27,10 +27,8 @@ cd example-app  //(your project name )
 to get routes/api.php run : ~  
 php artisan install:api  
 
-connect the project to database   
-in .env file  ( uncomment the section )  
-<img width="275" alt="Screenshot 2024-06-13 at 3 40 28 PM" src="https://github.com/jainrijul2003/secure-login-system/assets/100368294/5a78fffe-16e6-40f6-9117-bcb64a07d1b2">
-
+To connect the project to database go to .env file  ( uncomment the section )  
+<img width="275" alt="Screenshot 2024-06-13 at 3 40 28 PM" src="https://github.com/jainrijul2003/secure-login-system/assets/100368294/5a78fffe-16e6-40f6-9117-bcb64a07d1b2">  
 mysql //( i am using phpmyadmin on localhost so "mysql" as connection here  )  
 jwtAPI  //( datadase name )  
   
