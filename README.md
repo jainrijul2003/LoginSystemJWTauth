@@ -15,12 +15,12 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 // The commands are for macbook users :
 
-create new project : ~
-composer create-project laravel/laravel example-app //( example-app name of project )
-open the project directory ~
-cd example-app
-to get routes/api.php run : ~
-php artisan install:api
+-create new project : ~
+-composer create-project laravel/laravel example-app //( example-app name of project )
+-open the project directory ~
+-cd example-app
+-to get routes/api.php run : ~
+-php artisan install:api
 
 connect the project to database 
 in .env file  ( uncomment the section )
