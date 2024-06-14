@@ -102,7 +102,7 @@ php artisan serve
 
 Use the URL provided by the `php artisan serve` command to access your project.
 
-## Authors
+## Author
 
 - **Rijul Jain**
 
