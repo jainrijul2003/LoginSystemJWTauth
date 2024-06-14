@@ -1,16 +1,7 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
-
-## About Laravel
+# About Laravel  
+<img width="447" alt="Screenshot 2024-06-13 at 3 49 57 PM" src="https://github.com/jainrijul2003/secure-login-system/assets/100368294/360cd6aa-e7af-4040-a233-d59887e70f94">  
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
 - Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
@@ -19,48 +10,49 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - [Robust background job processing](https://laravel.com/docs/queues).
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Laravel is accessible, powerful, and provides tools required for large, robust applications.  
 
-## Learning Laravel
+# Secure Login System
+Building a Secure Laravel API with JWT Authentication
+Using Laravel 11 to build a system for secure user register and login with  Rest APIs using JWT authentication as a security measure   
+  
+# Commands for creating the projects after installing laravel and composer on the system
+For laravel installation follow the steps at : https://laravel.com/docs/11.x   
+// The commands are for macbook users :
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+create new project : ~
+composer create-project laravel/laravel example-app //( example-app name of project )  
+open the project directory ~  
+cd example-app  //(your project name )  
+to get routes/api.php run : ~  
+php artisan install:api  
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+To connect the project to database go to .env file  ( uncomment the section )  
+<img width="275" alt="Screenshot 2024-06-13 at 3 40 28 PM" src="https://github.com/jainrijul2003/secure-login-system/assets/100368294/5a78fffe-16e6-40f6-9117-bcb64a07d1b2">  
+mysql //( i am using phpmyadmin on localhost so "mysql" as connection here  )  
+jwtAPI  //( datadase name )  
+  
+then Run ~  
+php artisan migrate   
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Commands to install JWT in laravel project   
 
-## Laravel Sponsors
+Command #1 (Install JWT)  
+✔️ composer require php-open-source-saver/jwt-auth  
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Command #2 (Publish JWT Config File)  
+✔️ php artisan vendor:publish --provider="PHPOpenSourceSaver\JWTAuth\Providers\LaravelServiceProvider"  
 
-### Premium Partners
+Command #3 Running the below commands will add the JWT_SECRET in your .env file as follows.  
+✔️ php artisan jwt:secret  
+<img width="702" alt="Screenshot 2024-06-13 at 3 42 59 PM" src="https://github.com/jainrijul2003/secure-login-system/assets/100368294/a953ed74-22a4-4ebc-bd56-3ce07c758d68">
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+Update Auth File  in config folder 
+Make the following changes to the file:  
+<img width="508" alt="Screenshot 2024-06-13 at 3 46 03 PM" src="https://github.com/jainrijul2003/secure-login-system/assets/100368294/11adfc5e-7588-4785-b403-c47cce6e8ccd">  
+<img width="427" alt="Screenshot 2024-06-13 at 3 45 45 PM" src="https://github.com/jainrijul2003/secure-login-system/assets/100368294/2bbeaaa3-1517-4634-9933-935ab6c48c32">  
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+then ~  
+php artisan serve // to run the project     
+<img width="447" alt="Screenshot 2024-06-13 at 3 47 33 PM" src="https://github.com/jainrijul2003/secure-login-system/assets/100368294/e6b938d7-aa42-462b-bb4a-98afde53b948">  
+Use the above as starting of url the to your page  
